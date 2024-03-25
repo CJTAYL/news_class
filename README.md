@@ -6,7 +6,7 @@ Identifying the topic of news articles is often helpful for companies preparing 
 
 ### Data
 
-The model was trained on a set of articles published by the Huffington Post between 2005 - 2012. The data were comprised of XX,XXX articles and were labeled prior to building the model. 
+The model was trained on a set of articles published by the Huffington Post between 2005 - 2012. The dataset was comprised of 200,853 labeled articles.
 
 ## Performance
 
@@ -18,8 +18,6 @@ The scores for each metric are listed below:
 - Recall: 0.95
 - F1 Score: 0.95
 
-Overall, the model was able to classify the articles accurately and discriminate between true positives, false positives, and false negatives.
-
 ## Application to Business Settings
 
-The current project could serve as a template for data scientists working with clients who need support with targeted advertising. For instance, if a company planned on advertising with one publication, they could use a modified version of the model to determine which general interest publication (e.g., Time, The Atlantic) writes most often about the target topic. 
+The current project could serve as a template for data scientists working with clients who need support with targeted advertising. For instance, if a company planned on advertising with one publication, they could use a modified version of the model to determine which general interest publication (e.g., Time, The Atlantic) writes most often about the target topic, then use that information to select a publication to advertise with. 
